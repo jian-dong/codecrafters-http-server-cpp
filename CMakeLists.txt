@@ -27,8 +27,8 @@ add_library(http_server_lib ${HTTP_SERVER_SOURCES})
 target_include_directories(http_server_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(http_server_lib PUBLIC Threads::Threads ZLIB::ZLIB)
 
-add_executable(server src/server_main.cpp)
-target_link_libraries(server PRIVATE http_server_lib)
+add_executable(http-server src/server_main.cpp)
+target_link_libraries(http-server PRIVATE http_server_lib)
 
 option(BUILD_TESTING "Build tests" ON)
 
