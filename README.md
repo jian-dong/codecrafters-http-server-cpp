@@ -1,4 +1,4 @@
-[![progress-banner](https://backend.codecrafters.io/progress/http-server/8a9f4411-e80d-4a35-90a2-bbf552e56507)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
+[![progress-banner](https://backend.codecrafters.io/progress/http-server/7d6ca24f-44fb-4c70-9795-899efa3263e8)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
 
 This is a starting point for C++ solutions to the
 ["Build Your Own HTTP server" Challenge](https://app.codecrafters.io/courses/http-server/overview).
@@ -16,8 +16,9 @@ and more.
 
 # Passing the first stage
 
-The entry point for your HTTP server implementation is in `src/main.cpp`. Study
-and uncomment the relevant code, and push your changes to pass the first stage:
+The entry point for your HTTP server implementation is in `src/server.cpp`.
+Study and uncomment the relevant code, and push your changes to pass the first
+stage:
 
 ```sh
 git commit -am "pass 1st stage" # any msg
@@ -32,6 +33,6 @@ Note: This section is for stages 2 and beyond.
 
 1. Ensure you have `cmake` installed locally
 1. Run `./your_program.sh` to run your program, which is implemented in
-   `src/main.cpp`.
+   `src/server.cpp`.
 1. Commit your changes and run `git push origin master` to submit your solution
    to CodeCrafters. Test output will be streamed to your terminal.
