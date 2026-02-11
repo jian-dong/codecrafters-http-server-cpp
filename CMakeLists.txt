@@ -30,7 +30,7 @@ target_link_libraries(http_server_lib PUBLIC Threads::Threads ZLIB::ZLIB)
 add_executable(http-server src/server_main.cpp)
 target_link_libraries(http-server PRIVATE http_server_lib)
 
-option(BUILD_TESTING "Build tests" ON)
+option(BUILD_TESTING "Build tests" OFF)
 
 if(BUILD_TESTING)
   include(CTest)
